@@ -1,0 +1,43 @@
+
+
+.board {
+  padding: 20px 20px 20px 30px;
+  background: rgb(90,32,111);
+  display: table;
+  margin: auto;
+}
+
+
+
+.cell {
+  background: rgb(52,150,172);
+  display: table-cell;
+  height: 30vh;
+  width: 30vh;
+  box-shadow: 5px 5px 10px rgb(52,150,172);
+  border-style: solid;
+  text-align: center;
+  font-size: 30px;
+  line-height: 300%;
+}
+
+
+.cell:hover {
+  background: rgb(51,187,200);
+}
+
+.score {
+  text-align: center;
+  background: lightyellow;
+  border-color: black;
+  border-style: dotted;
+}
+/*
+.box {
+  background: red;
+  height: 100vh;
+}
+.tile{
+  background: blue;
+  height: 100vh;
+}*/
