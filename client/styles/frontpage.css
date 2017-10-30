@@ -1,0 +1,24 @@
+.joinOptions {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.joinOption {
+  min-height: 167px;
+  display: inline-block;
+  background-color: #fff;
+  width: 30%;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 6px;
+}
+.joinHeading {
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+  background-color: chocolate;
+}
+
+.joinBody {
+  position: relative;
+  padding: 15px;
+}
