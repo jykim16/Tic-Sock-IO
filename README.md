@@ -20,6 +20,10 @@ npm install
 
 IMPORTANT: ensure `MySQL` is running before performing these steps.
 
+run `db/schema.sql` file
+
+May need to configure sequelize in `db/index.js` file.
+
 ## Running the App
 
 To run server: `npm start`
