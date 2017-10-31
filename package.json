@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "react-dev": "webpack -d --watch",
-    "server-dev": "nodemon index.js"
+    "server-dev": "nodemon index.js",
+    "heroku-postbuild": "webpack -p --config ./webpack.config.js --progress"
   },
   "author": "JonathanKim",
   "license": "MIT",
@@ -25,9 +27,9 @@
     "sequelize": "^4.19.0",
     "socket.io": "^2.0.4",
     "style-loader": "^0.19.0",
-    "webpack": "^3.8.1"
+    "webpack": "^3.8.1",
+    "socket.io-client": "^2.0.4"
   },
   "devDependencies": {
-    "socket.io-client": "^2.0.4"
   }
 }
