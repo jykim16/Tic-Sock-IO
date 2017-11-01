@@ -4,6 +4,7 @@ Tic-Tac-Toe: Multiplayer implemented with Socket.IO
 ## Usage
 
 ![Tic-Sock-IO: Multiplyer Tic-Tac-Toe](https://github.com/jykim16/projectGifs/raw/master/Tic-sock-io.gif)
+
 Checkout the app at https://tic-sock-io.herokuapp.com/
 
 ## Requirements
